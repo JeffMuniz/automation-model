@@ -1,7 +1,7 @@
 ### Automated Backup and Restore for Azure SQL Database
 
-RestoreScript.phyton: Write the Backup and Restore Script in Phyton
+BackupRestore.py: using sql_client.databases.begin_export function
 
-RestoreScript.ps1: Write the Backup and Restore Script in PowerShell
+BackupRestore.ps1: using Export-AzSqlDatabase function
 
-Run commands in this directory.
+### Run commands in this directory.
