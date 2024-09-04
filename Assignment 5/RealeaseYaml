@@ -1,0 +1,20 @@
+trigger:
+- none
+
+stages:
+- stage: Deploy
+  jobs:
+  - job: DeployToAKS
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: Kubernetes@1
+      inputs:
+        connectionType: 'Azure Resource Manager'
+        azureSubscription: 'YourAzureSubscription'
+        azureResourceGroup: 'YourResourceGroup'
+        kubernetesCluster: 'YourAKSCluster'
+        namespace: 'default'
+        command: 'apply'
+        useConfigurationFile: true
+        configuration: '$(System.DefaultWorkingDirectory)/manifests/deployment.yaml'
