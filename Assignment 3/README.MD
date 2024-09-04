@@ -1,7 +1,9 @@
-Automate the setup of infrastructure monitoring and alerting for Azure resources using scripting and Azure Monitor:
+### Automate the setup of infrastructure monitoring and alerting for Azure resources using scripting and Azure Monitor:
 
-Option 1 - SetupMonitoring.Phyton:Write the Monitoring Setup Script in Phyton
+1- SetupMoitoring.ps1: Write the services Monitoring resources in Azure via Powershell.
 
-Option 2 - SetupMoitorig.ps1:Write the Monitoring Setup Script in PowerShell
+2- SetupMonitoring.py: Create rules and automation for collecting metrics on resources created aboved.
 
-Run  commands in this directory.
+
+### Run terraform commands in this directory.
+

@@ -1,6 +1,7 @@
-Automate the setup of infrastructure monitoring and alerting for Azure resources using scripting and Azure Monitor:
+### Automated Backup and Restore for Azure SQL Database
 
-RestoreScript.Phyton: Write the Backup and Restore Script in Phyton
+RestoreScript.phyton: Write the Backup and Restore Script in Phyton
+
 RestoreScript.ps1: Write the Backup and Restore Script in PowerShell
 
 Run commands in this directory.
