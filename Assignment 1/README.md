@@ -8,7 +8,8 @@ Database.tf - Deploy Azure SQL Database
 
 NetworkSecurityGroup.tf - Create Network Security Groups 
 
-Run terraform commands in this directory.
+###Run terraform commands in this directory.
 
-Terraform Init
-Terraform apply
+terraform Init
+
+terraform apply
